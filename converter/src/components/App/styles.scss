@@ -1,0 +1,16 @@
+@use 'src/styles/vars';
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;500;700&display=swap');
+
+
+
+.app {
+  width: 500px;
+  margin: 1em auto;
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  border: 10px solid vars.$colorLight;
+}
+
+.app img {
+  max-width: 150px;
+}
